@@ -4,7 +4,7 @@
 # organization.
 
 # Import module-functions.sentinel as "modules"
-<import_statement>
+import "module-functions" as modules
 
 ##### Parameters #####
 # The address of the TFC or TFE server
@@ -14,7 +14,7 @@ param address default "app.terraform.io"
 param organization
 
 # Call the validation function
-modules_from_pmr = <function_call>
+modules_from_pmr = modules.require_modules_from_pmr(address, organization)
 
 # Main rule
 main = rule {

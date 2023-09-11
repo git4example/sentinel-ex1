@@ -1,0 +1,7 @@
+workspace = {
+  "auto_apply":  false,
+  "description": null,
+  "name":        "prod-network",
+  "vcs_repo": {},
+  "working_directory": "",
+}
