@@ -1,0 +1,23 @@
+# restrict-gcp-instance-image-a.sentinel
+# This policy restricts the public images that GCP compute instances use
+
+# Import common-functions/tfplan-functions/tfplan-functions.sentinel
+# with alias "plan"
+import "tfplan-functions" as plan
+
+# Get all GCP compute instances
+allGCPComputeInstances = plan.find_resources("<resource_type>")
+
+# Filter to GCP compute instances with violations
+# Prints warnings for all violations
+violatingGCPComputeInstances =
+  plan.filter_attribute_is_not_value(allGCPComputeInstances,
+  "<expression_1>", "debian-cloud/debian-9", true)
+
+# Count violations
+violations = <expression_2>
+
+# Main rule
+main = rule {
+  violations is 0
+}

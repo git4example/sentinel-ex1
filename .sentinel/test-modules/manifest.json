@@ -1,16 +1,10 @@
 {
 	"records": [
 		{
-			"key": "test/require-access-keys-use-pgp-b/fail-invalid-value/tfplan-functions",
+			"key": "test/restrict-vault-auth-methods/fail/tfplan-functions",
 			"source": "../../common-functions/tfplan-functions/tfplan-functions.sentinel",
 			"sourceSum": "",
 			"dest": "/root/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"
-		},
-		{
-			"key": "test/restrict-acm-certificate-domains-a/fail/tfstate-functions",
-			"source": "../../common-functions/tfstate-functions/tfstate-functions.sentinel",
-			"sourceSum": "",
-			"dest": "/root/sentinel/common-functions/tfstate-functions/tfstate-functions.sentinel"
 		},
 		{
 			"key": "test/require-access-keys-use-pgp-a/pass/tfplan-functions",
@@ -19,13 +13,7 @@
 			"dest": "/root/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"
 		},
 		{
-			"key": "test/restrict-vault-auth-methods/pass/tfplan-functions",
-			"source": "../../common-functions/tfplan-functions/tfplan-functions.sentinel",
-			"sourceSum": "",
-			"dest": "/root/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"
-		},
-		{
-			"key": "test/require-access-keys-use-pgp-a/fail-invalid-value/tfplan-functions",
+			"key": "test/require-access-keys-use-pgp-b/pass/tfplan-functions",
 			"source": "../../common-functions/tfplan-functions/tfplan-functions.sentinel",
 			"sourceSum": "",
 			"dest": "/root/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"
@@ -37,25 +25,19 @@
 			"dest": "/root/sentinel/common-functions/tfstate-functions/tfstate-functions.sentinel"
 		},
 		{
-			"key": "test/require-access-keys-use-pgp-b/pass/tfplan-functions",
-			"source": "../../common-functions/tfplan-functions/tfplan-functions.sentinel",
-			"sourceSum": "",
-			"dest": "/root/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"
-		},
-		{
-			"key": "test/require-access-keys-use-pgp-b/fail-with-null/tfplan-functions",
-			"source": "../../common-functions/tfplan-functions/tfplan-functions.sentinel",
-			"sourceSum": "",
-			"dest": "/root/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"
-		},
-		{
-			"key": "test/restrict-vault-auth-methods/fail/tfplan-functions",
-			"source": "../../common-functions/tfplan-functions/tfplan-functions.sentinel",
-			"sourceSum": "",
-			"dest": "/root/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"
-		},
-		{
 			"key": "test/require-access-keys-use-pgp-b/fail-missing-value/tfplan-functions",
+			"source": "../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/root/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/restrict-acm-certificate-domains-a/fail/tfstate-functions",
+			"source": "../../common-functions/tfstate-functions/tfstate-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/root/sentinel/common-functions/tfstate-functions/tfstate-functions.sentinel"
+		},
+		{
+			"key": "test/require-access-keys-use-pgp-b/fail-invalid-value/tfplan-functions",
 			"source": "../../common-functions/tfplan-functions/tfplan-functions.sentinel",
 			"sourceSum": "",
 			"dest": "/root/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"
@@ -67,7 +49,37 @@
 			"dest": "/root/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"
 		},
 		{
+			"key": "test/require-access-keys-use-pgp-a/fail-invalid-value/tfplan-functions",
+			"source": "../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/root/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/restrict-vault-auth-methods/pass/tfplan-functions",
+			"source": "../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/root/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/restrict-acm-certificate-domains-b/pass/tfstate-functions",
+			"source": "../../common-functions/tfstate-functions/tfstate-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/root/sentinel/common-functions/tfstate-functions/tfstate-functions.sentinel"
+		},
+		{
 			"key": "test/require-access-keys-use-pgp-a/fail-missing-value/tfplan-functions",
+			"source": "../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/root/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/restrict-acm-certificate-domains-b/fail/tfstate-functions",
+			"source": "../../common-functions/tfstate-functions/tfstate-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/root/sentinel/common-functions/tfstate-functions/tfstate-functions.sentinel"
+		},
+		{
+			"key": "test/require-access-keys-use-pgp-b/fail-with-null/tfplan-functions",
 			"source": "../../common-functions/tfplan-functions/tfplan-functions.sentinel",
 			"sourceSum": "",
 			"dest": "/root/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"
