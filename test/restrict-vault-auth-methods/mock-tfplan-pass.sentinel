@@ -1,0 +1,94 @@
+terraform_version = "0.12.24"
+resource_changes = {
+  "vault_auth_backend.test[0]": {
+    "address": "vault_auth_backend.test[0]",
+    "change": {
+      "actions": [
+        "create",
+      ],
+      "after": {
+        "description": null,
+        "local":       null,
+        "path":        "roger-k8s",
+        "type":        "kubernetes",
+      },
+      "after_unknown": {
+        "accessor":                  true,
+        "default_lease_ttl_seconds": true,
+        "id":                    true,
+        "listing_visibility":    true,
+        "max_lease_ttl_seconds": true,
+        "tune":                  true,
+      },
+      "before": null,
+    },
+    "deposed":        "",
+    "index":          0,
+    "mode":           "managed",
+    "module_address": "",
+    "name":           "test",
+    "provider_name":  "vault",
+    "type":           "vault_auth_backend",
+  },
+  "vault_auth_backend.test[1]": {
+    "address": "vault_auth_backend.test[1]",
+    "change": {
+      "actions": [
+        "create",
+      ],
+      "after": {
+        "description": null,
+        "local":       null,
+        "path":        "roger-gh",
+        "type":        "github",
+      },
+      "after_unknown": {
+        "accessor":                  true,
+        "default_lease_ttl_seconds": true,
+        "id":                    true,
+        "listing_visibility":    true,
+        "max_lease_ttl_seconds": true,
+        "tune":                  true,
+      },
+      "before": null,
+    },
+    "deposed":        "",
+    "index":          1,
+    "mode":           "managed",
+    "module_address": "",
+    "name":           "test",
+    "provider_name":  "vault",
+    "type":           "vault_auth_backend",
+  },
+  "vault_auth_backend.test[2]": {
+    "address": "vault_auth_backend.test[2]",
+    "change": {
+      "actions": [
+        "create",
+      ],
+      "after": {
+        "description": null,
+        "local":       null,
+        "path":        "roger-azure",
+        "type":        "azure",
+      },
+      "after_unknown": {
+        "accessor":                  true,
+        "default_lease_ttl_seconds": true,
+        "id":                    true,
+        "listing_visibility":    true,
+        "max_lease_ttl_seconds": true,
+        "tune":                  true,
+      },
+      "before": null,
+    },
+    "deposed":        "",
+    "index":          2,
+    "mode":           "managed",
+    "module_address": "",
+    "name":           "test",
+    "provider_name":  "vault",
+    "type":           "vault_auth_backend",
+  },
+}
+output_changes = {}
