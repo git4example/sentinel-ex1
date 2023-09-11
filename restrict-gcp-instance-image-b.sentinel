@@ -20,16 +20,16 @@ filter_images = func(instances, image) {
   # Iterate over instances to check their images
   for instances as address, instance {
     # Set boot_disk variable
-    boot_disk = <expression_1>
+    boot_disk = instance.change.after.boot_disk
     # Validate that the initialize_params block is present and a list
     # and that the image under it is allowed
     # Add violators to the violators list and print warnings
-    if types.type_of(<expression_2>) is not "list" {
+    if types.type_of(boot_disk[0].initialize_params) is not "list" {
       violators[address] = instance
       print(address, "does not have image defined: it should be", image)
-    } else if <expression_3> is not image {
+    } else if boot_disk[0].initialize_params[0].image is not image {
       violators[address] = instance
-      print(address, "has image", <expression_3>,
+      print(address, "has image", boot_disk[0].initialize_params[0].image,
             "but is supposed to use", image)
     } // end if
   } // end for
@@ -45,4 +45,7 @@ violatingGCPComputeInstances = filter_images(allGCPComputeInstances, "debian-clo
 violations = length(violatingGCPComputeInstances)
 
 # Main rule
-<add_main_rule>
+main = rule {
+  violations is 0
+}
+
