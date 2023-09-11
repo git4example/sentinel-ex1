@@ -4,12 +4,12 @@ module "tfplan-functions" {
 
 mock "tfplan/v2" {
   module {
-    source = "mock-tfplan-fail.sentinel"
+    source = "mock-tfplan-fail-missing-value.sentinel"
   }
 }
 
 test {
   rules = {
-    main = true
+    main = false
   }
 }

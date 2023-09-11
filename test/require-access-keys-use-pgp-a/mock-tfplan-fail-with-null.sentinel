@@ -1,0 +1,33 @@
+terraform_version = "0.12.3"
+resource_changes = {
+  "aws_iam_access_key.roger": {
+    "address": "aws_iam_access_key.roger",
+    "change": {
+      "actions": [
+        "create",
+      ],
+      "after": {
+        "pgp_key": null,
+        "user":    "roger",
+      },
+      "after_unknown": {
+        "encrypted_secret":     true,
+        "id":                   true,
+        "key_fingerprint":      true,
+        "secret":               true,
+        "ses_smtp_password":    true,
+        "ses_smtp_password_v4": true,
+        "status":               true,
+      },
+      "before": null,
+    },
+    "deposed":        "",
+    "index":          null,
+    "mode":           "managed",
+    "module_address": "",
+    "name":           "roger",
+    "provider_name":  "aws",
+    "type":           "aws_iam_access_key",
+  },
+}
+output_changes = {}
