@@ -7,12 +7,12 @@
 import "tfstate-functions" as state
 
 # Get all AWS ACM certs
-allACMCerts = state.find_datasources("<data_source_type>")
+allACMCerts = state.find_datasources("aws_acm_certificate")
 
 # Filter to ACM certs that are not sub-domains of hashidemos.io
 violatingACMCerts = filter allACMCerts as address, cert {
-  cert.values.<attribute> else "" not matches "(.+)\\.hashidemos\\.io$" and
-  print(address, "has domain", <expression>,
+  cert.values.domain else "" not matches "(.+)\\.hashidemos\\.io$" and
+  print(address, "has domain", cert.values.domain,
         "that is not a sub-domain of hashidemos.io")
 }
 

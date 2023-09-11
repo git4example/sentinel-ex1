@@ -1,13 +1,55 @@
 {
 	"records": [
 		{
-			"key": "test/restrict-vault-auth-methods/fail/tfplan-functions",
+			"key": "test/require-access-keys-use-pgp-b/fail-invalid-value/tfplan-functions",
+			"source": "../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/root/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/restrict-acm-certificate-domains-a/fail/tfstate-functions",
+			"source": "../../common-functions/tfstate-functions/tfstate-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/root/sentinel/common-functions/tfstate-functions/tfstate-functions.sentinel"
+		},
+		{
+			"key": "test/require-access-keys-use-pgp-a/pass/tfplan-functions",
+			"source": "../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/root/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/restrict-vault-auth-methods/pass/tfplan-functions",
 			"source": "../../common-functions/tfplan-functions/tfplan-functions.sentinel",
 			"sourceSum": "",
 			"dest": "/root/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"
 		},
 		{
 			"key": "test/require-access-keys-use-pgp-a/fail-invalid-value/tfplan-functions",
+			"source": "../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/root/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/restrict-acm-certificate-domains-a/pass/tfstate-functions",
+			"source": "../../common-functions/tfstate-functions/tfstate-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/root/sentinel/common-functions/tfstate-functions/tfstate-functions.sentinel"
+		},
+		{
+			"key": "test/require-access-keys-use-pgp-b/pass/tfplan-functions",
+			"source": "../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/root/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/require-access-keys-use-pgp-b/fail-with-null/tfplan-functions",
+			"source": "../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/root/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/restrict-vault-auth-methods/fail/tfplan-functions",
 			"source": "../../common-functions/tfplan-functions/tfplan-functions.sentinel",
 			"sourceSum": "",
 			"dest": "/root/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"
@@ -20,36 +62,6 @@
 		},
 		{
 			"key": "test/require-access-keys-use-pgp-a/fail-with-null/tfplan-functions",
-			"source": "../../common-functions/tfplan-functions/tfplan-functions.sentinel",
-			"sourceSum": "",
-			"dest": "/root/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"
-		},
-		{
-			"key": "test/require-access-keys-use-pgp-b/fail-with-null/tfplan-functions",
-			"source": "../../common-functions/tfplan-functions/tfplan-functions.sentinel",
-			"sourceSum": "",
-			"dest": "/root/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"
-		},
-		{
-			"key": "test/require-access-keys-use-pgp-b/fail-invalid-value/tfplan-functions",
-			"source": "../../common-functions/tfplan-functions/tfplan-functions.sentinel",
-			"sourceSum": "",
-			"dest": "/root/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"
-		},
-		{
-			"key": "test/require-access-keys-use-pgp-a/pass/tfplan-functions",
-			"source": "../../common-functions/tfplan-functions/tfplan-functions.sentinel",
-			"sourceSum": "",
-			"dest": "/root/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"
-		},
-		{
-			"key": "test/require-access-keys-use-pgp-b/pass/tfplan-functions",
-			"source": "../../common-functions/tfplan-functions/tfplan-functions.sentinel",
-			"sourceSum": "",
-			"dest": "/root/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"
-		},
-		{
-			"key": "test/restrict-vault-auth-methods/pass/tfplan-functions",
 			"source": "../../common-functions/tfplan-functions/tfplan-functions.sentinel",
 			"sourceSum": "",
 			"dest": "/root/sentinel/common-functions/tfplan-functions/tfplan-functions.sentinel"
